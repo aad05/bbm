@@ -1587,7 +1587,7 @@ rkJggg==" transform="matrix(0.5408 0 0 0.5393 243.6401 60.6148)">
 <text transform="matrix(1 0 0 1 85.8032 433.6657)" class="st6 st12 st13">20      -yil “___” ________ dan  20      -yil “___” ________ gacha</text>
 <text transform="matrix(1 0 0 1 154.9218 537.7663)" class="st6 st12 st17">malaka oshirish kursida ta’lim oldi va unga</text>
 <text transform="matrix(1 0 0 1 216.7216 579.2438)" class="st6 st7 st18">Munchoqli Bezak</text>
-<text transform="matrix(1 0 0 1 347.4648 661.9034)" class="st6 st7 st18">Uralov Doniyor</text>
+<text transform="matrix(1 0 0 1 347.4648 661.9034)" class="st6 st7 st18" id="full_name" >Uralov Doniyor</text>
 <text transform="matrix(1 0 0 1 437.325 757.3868)" class="st6 st7 st19">12</text>
 <text transform="matrix(1 0 0 1 103.5662 433.6687)" class="st6 st12 st17">24</text>
 <text transform="matrix(1 0 0 1 159.5663 433.6687)" class="st6 st12 st17">21</text>

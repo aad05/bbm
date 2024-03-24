@@ -1,5 +1,6 @@
 const errorStatus500 = require("../../errors/500");
 const main_db = require("../../db");
+const bodyRequirer = require("../../errors/bodyRequirer");
 
 const course_category = async (req, res) => {
 	try {
@@ -16,6 +17,7 @@ const course_category = async (req, res) => {
 const by_category = async (req, res) => {
 	try {
 		const { category } = req.params;
+		await bodyRequirer({ body: req.params, requiredValue: ["category"] });
 		const [categories] = await main_db.query(`
 		    SELECT * FROM ${category.toUpperCase().replaceAll("-", "_")};
 		`);
